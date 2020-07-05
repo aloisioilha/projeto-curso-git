@@ -1,0 +1,78 @@
+Como instalar o GIT
+
+Thttps://www.webdevdrops.com/git-no-windows-github/este 2 - Até aqui não tinha o GIT iniciado.
+
+touch
+
+Depois existe um outro detalhe quanto ao comando touch, se o prompt de comando não reconhecer:
+
+
+
+"'touch' não é reconhecido como um comando interno
+
+ou externo, um programa operável ou um arquivo em lotes."
+
+
+
+então basta digitar no prompt de comando npm install touch-cli -g, logo depois será possível criar arquivos com o touch.
+
+
+
+commit
+
+Antes de começar a comitar é importante primeiro se identificar com os comandos:
+
+git config --global user.name "Nome Sobrenome"   
+git config --global user.email "seu_email@email.com"
+Ou ao enviar o primeiro commit será solicitada essa informação, só assim é possível manter o registro do usuário que realizou o commit, como aconteceu comigo:
+
+
+
+*** Please tell me who you are.
+
+ 
+
+Run
+
+ 
+
+ git config --global user.email "you@example.com"
+
+ git config --global user.name "Your Name"
+
+ 
+
+to set your account's default identity.
+
+Omit --global to set the identity only in this repository.
+
+
+NPM significa Node Package Manager, você tem o Node instalado?
+
+
+
+Se não tiver, pode ser esse o caso, instala e executa o comando no prompt de comando do Windows de novo pra ver se resolve.
+
+
+
+Eu já tenho Node, então não deu problema, também nem tinha me atentado que o comando estava relacionado ao Node
+
+antes de executar o comando git commit -m, é necessário fazer a configuração do git.
+
+Pesquisando, eu achei este site https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Configura%C3%A7%C3%A3o-Inicial-do-Git
+
+
+sim, ele pede para configurar o usuário e email de contato o git, que é baseado em Linux, no caso do curso apresentado, creio que que o professor já estava usando o Linux, por isso isso que ele não apresentou tal situação, os comandos são para que o git commit -m deixe gravar:
+
+git config --global user.name "seu_nome" - colocar as aspas (") para que seja feito o comando correto;
+
+git config --global email.user "seu_email - lembre-se de colocar as aspas.
+
+
+
+
+Versionamento Semântico https://semver.org/lang/pt-BR/
+
+Recomendo visitarem o site da documentação, está em inglês 
+mas clicando em Quick reference guides: Github Cheat Sheet | Visual Git Cheat Sheet
+existem guias em vários idiomas incluindo português!
