@@ -6,19 +6,14 @@ touch
 
 Depois existe um outro detalhe quanto ao comando touch, se o prompt de comando não reconhecer:
 
-
-
 "'touch' não é reconhecido como um comando interno
 
 ou externo, um programa operável ou um arquivo em lotes."
 
-
-
 então basta digitar no prompt de comando npm install touch-cli -g, logo depois será possível criar arquivos com o touch.
 
 
-
-commit
+COMMIT
 
 Antes de começar a comitar é importante primeiro se identificar com os comandos:
 
@@ -27,33 +22,21 @@ git config --global user.email "seu_email@email.com"
 Ou ao enviar o primeiro commit será solicitada essa informação, só assim é possível manter o registro do usuário que realizou o commit, como aconteceu comigo:
 
 
-
 *** Please tell me who you are.
 
- 
-
 Run
-
- 
 
  git config --global user.email "you@example.com"
 
  git config --global user.name "Your Name"
-
  
 
 to set your account's default identity.
-
 Omit --global to set the identity only in this repository.
-
 
 NPM significa Node Package Manager, você tem o Node instalado?
 
-
-
 Se não tiver, pode ser esse o caso, instala e executa o comando no prompt de comando do Windows de novo pra ver se resolve.
-
-
 
 Eu já tenho Node, então não deu problema, também nem tinha me atentado que o comando estava relacionado ao Node
 
@@ -67,7 +50,6 @@ sim, ele pede para configurar o usuário e email de contato o git, que é basead
 git config --global user.name "seu_nome" - colocar as aspas (") para que seja feito o comando correto;
 
 git config --global email.user "seu_email - lembre-se de colocar as aspas.
-
 
 
 
